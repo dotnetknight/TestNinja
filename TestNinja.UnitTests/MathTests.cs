@@ -6,18 +6,18 @@ namespace TestNinja.UnitTests
     [TestFixture]
     public class MathTests
     {
-        private Math _math;
+        private Math math;
 
         [SetUp]
         public void Setup()
         {
-            _math = new Math();
+            math = new Math();
         }
 
         [Test]
         public void Add_OnCall_ReturnTheSumOfArguments()
         {
-            var result = _math.Add(1, 2);
+            var result = math.Add(1, 2);
 
             Assert.That(result, Is.EqualTo(3));
         }
@@ -28,9 +28,17 @@ namespace TestNinja.UnitTests
         [TestCase(1, 1, 1)]
         public void Max_WhenCalled_ReturnGreatherArgument(int a, int b, int expectedResult)
         {
-            var result = _math.Max(a, b);
+            var result = math.Max(a, b);
 
             Assert.That(result, Is.EqualTo(expectedResult));
+        }
+
+        [Test]
+        public void GetOddNumbers_LimitIsGreaterThanZero_ReturnOddNumbersUpToLimit()
+        {
+            var result = math.GetOddNumbers(5);
+
+            Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
         }
     }
 }

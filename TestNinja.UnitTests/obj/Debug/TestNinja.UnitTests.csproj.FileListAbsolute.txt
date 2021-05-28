@@ -26,3 +26,4 @@ C:\Users\skott\Desktop\Projects\Unit Testing\TestNinja\TestNinja.UnitTests\bin\D
 C:\Users\skott\Desktop\Projects\Unit Testing\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.dll
 C:\Users\skott\Desktop\Projects\Unit Testing\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.pdb
 C:\Users\skott\Desktop\Projects\Unit Testing\TestNinja\TestNinja.UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\skott\Desktop\Projects\Unit Testing\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.CoreCompileInputs.cache
